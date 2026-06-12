@@ -1,0 +1,29 @@
+<svg width="320" height="232" viewBox="128 148 314 224" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#16263c"/><stop offset="1" stop-color="#A9CBE4"/></linearGradient>
+  <radialGradient id="riv" cx="0.36" cy="0.32" r="0.85"><stop offset="0" stop-color="#FCE0A6"/><stop offset="0.5" stop-color="#E7B25E"/><stop offset="1" stop-color="#A56A2A"/></radialGradient>
+  <clipPath id="pk"><path d="M140 158 H372 L350 316 L256 366 L162 316 Z"/></clipPath>
+ </defs>
+
+ <!-- denim pocket: smooth left->right fade + topstitched seams -->
+ <g clip-path="url(#pk)">
+  <rect x="140" y="150" width="235" height="230" fill="url(#fade)"/>
+  <g stroke="#E3A063" stroke-width="4" stroke-dasharray="13 8">
+   <line x1="187" y1="150" x2="187" y2="380"/><line x1="234" y1="150" x2="234" y2="380"/>
+   <line x1="281" y1="150" x2="281" y2="380"/><line x1="328" y1="150" x2="328" y2="380"/></g>
+ </g>
+ <path d="M140 158 H372 L350 316 L256 366 L162 316 Z" fill="none" stroke="#E3A063" stroke-width="5" stroke-dasharray="14 8"/>
+
+ <!-- metal rivets where the side seams meet the opening -->
+ <g stroke="#6E4A22" stroke-width="1.4">
+  <circle cx="166" cy="180" r="8" fill="url(#riv)"/>
+  <circle cx="346" cy="180" r="8" fill="url(#riv)"/>
+ </g>
+
+ <!-- red Fade Labs tab -->
+ <g>
+  <rect x="360" y="188" width="70" height="48" rx="6" fill="#C23B3B"/>
+  <text x="395" y="207" font-family="Helvetica,Arial" font-size="13.5" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0.5">FADE</text>
+  <text x="395" y="225" font-family="Helvetica,Arial" font-size="13.5" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0.5">LABS</text>
+ </g>
+</svg>
